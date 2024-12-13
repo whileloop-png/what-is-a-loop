@@ -7,7 +7,7 @@ ipairs: ipairs r used to iterate through tables with sequential numeric indices 
 
 Example: ipairs({1, 2, 3}) will iterate over 1, 2, and 3.
 
-pairs: Used to iterate through all key-value pairs in a table, regardless of the key type or order. It doesn't guarantee any specific iteration order.
+pairs: used to iterate through all key-value pairs in a table regardless of the key type or order. It doesnt guarantee any specific iteration order.
 
 Example: pairs({a = 1, b = 2, c = 3}) will iterate over a = 1, b = 2, and c = 3 in an arbitrary order.
 
