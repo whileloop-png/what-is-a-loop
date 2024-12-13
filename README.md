@@ -17,7 +17,7 @@ Example: pairs({a = 1, b = 2, c = 3}) will iterate over a = 1, b = 2, and c = 3 
 1. for loops (numerical)
 how it works: iterates a specific number of times, defined by a start value, an end value, and optionally, a step.
 
-# use case:
+use case:
 
 counting numbers.
 repeating actions a fixed number of times.
@@ -25,7 +25,7 @@ iterating through indices of arrays or ranges.
 
 # for loops (generic)
 
-# use case:
+use case:
 
 processing lists of objects, such as game items or player data.
 iterating over a dictionary for settings or configurations.
@@ -35,7 +35,7 @@ example in security: checking for misconfigurations in a list of settings or per
 
 how it works: continues looping as long as a condition evaluates to true.
 
-# use case:
+use case:
 
 waiting for a condition to be met, such as a players action.
 polling for updates or changes in game state.
@@ -44,6 +44,6 @@ polling for updates or changes in game state.
 
 how it works: pretty similar to while but always executes the loop body at least once before checking the condition.
 
-# use case:
+use case:
 
 shits useful when you need to guarantee at least one iteration before validating a condition.
